@@ -1,0 +1,249 @@
+fileFormatVersion: 2
+guid: 045cea47affde1f41a8c6ca06e2c5ff4
+timeCreated: 1508083076
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Arch41_48
+    100002: //RootNode
+    100004: Line010
+    100006: Line011
+    100008: Line046
+    100010: Line051
+    100012: Line068
+    100014: Line070
+    100016: Line120
+    100018: Line121
+    100020: Line147
+    100022: Line148
+    100024: Line150
+    100026: Line151
+    100028: Line152
+    100030: Line154
+    100032: Line155
+    100034: Line168
+    100036: Line181
+    100038: Line182
+    100040: Line186
+    100042: Line188
+    100044: Plane004
+    100046: Plane004_MeshPart0
+    100048: Plane004_MeshPart1
+    100050: Sphere007
+    100052: Sphere008
+    100054: Sphere011
+    400000: Arch41_48
+    400002: //RootNode
+    400004: Line010
+    400006: Line011
+    400008: Line046
+    400010: Line051
+    400012: Line068
+    400014: Line070
+    400016: Line120
+    400018: Line121
+    400020: Line147
+    400022: Line148
+    400024: Line150
+    400026: Line151
+    400028: Line152
+    400030: Line154
+    400032: Line155
+    400034: Line168
+    400036: Line181
+    400038: Line182
+    400040: Line186
+    400042: Line188
+    400044: Plane004
+    400046: Plane004_MeshPart0
+    400048: Plane004_MeshPart1
+    400050: Sphere007
+    400052: Sphere008
+    400054: Sphere011
+    2100000: Arch41_48Mat
+    2100002: Line010Mat
+    2100004: Line011Mat
+    2100006: Line046Mat
+    2100008: Line051Mat
+    2100010: Line068Mat
+    2100012: Line070Mat
+    2100014: Line120Mat
+    2100016: Line121Mat
+    2100018: Line147Mat
+    2100020: Line148Mat
+    2100022: Line150Mat
+    2100024: Line151Mat
+    2100026: Line152Mat
+    2100028: Line154Mat
+    2100030: Line155Mat
+    2100032: Line168Mat
+    2100034: Line181Mat
+    2100036: Line182Mat
+    2100038: Line186Mat
+    2100040: Line188Mat
+    2100042: Plane004Mat
+    2100044: Sphere007Mat
+    2100046: Sphere008Mat
+    2100048: Sphere011Mat
+    2300000: Arch41_48
+    2300002: Line010
+    2300004: Line011
+    2300006: Line046
+    2300008: Line051
+    2300010: Line068
+    2300012: Line070
+    2300014: Line120
+    2300016: Line121
+    2300018: Line147
+    2300020: Line148
+    2300022: Line150
+    2300024: Line151
+    2300026: Line152
+    2300028: Line154
+    2300030: Line155
+    2300032: Line168
+    2300034: Line181
+    2300036: Line182
+    2300038: Line186
+    2300040: Line188
+    2300042: Plane004_MeshPart0
+    2300044: Plane004_MeshPart1
+    2300046: Sphere007
+    2300048: Sphere008
+    2300050: Sphere011
+    3300000: Arch41_48
+    3300002: Line010
+    3300004: Line011
+    3300006: Line046
+    3300008: Line051
+    3300010: Line068
+    3300012: Line070
+    3300014: Line120
+    3300016: Line121
+    3300018: Line147
+    3300020: Line148
+    3300022: Line150
+    3300024: Line151
+    3300026: Line152
+    3300028: Line154
+    3300030: Line155
+    3300032: Line168
+    3300034: Line181
+    3300036: Line182
+    3300038: Line186
+    3300040: Line188
+    3300042: Plane004_MeshPart0
+    3300044: Plane004_MeshPart1
+    3300046: Sphere007
+    3300048: Sphere008
+    3300050: Sphere011
+    4300000: Arch41_48
+    4300002: Line010
+    4300004: Line011
+    4300006: Line046
+    4300008: Line051
+    4300010: Line068
+    4300012: Line070
+    4300014: Line120
+    4300016: Line121
+    4300018: Line147
+    4300020: Line148
+    4300022: Line150
+    4300024: Line151
+    4300026: Line152
+    4300028: Line154
+    4300030: Line155
+    4300032: Line168
+    4300034: Line181
+    4300036: Line182
+    4300038: Line186
+    4300040: Line188
+    4300042: Plane004_MeshPart0
+    4300044: Plane004_MeshPart1
+    4300046: Sphere007
+    4300048: Sphere008
+    4300050: Sphere011
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Line010Mat
+    second: {fileID: 2100000, guid: c6e69b533d509434ca56fc26a640d76a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 28d0cf0393e435449b75e9dd5e82134c
+timeCreated: 1508044059
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - instaMesh0: {fileID: 100000, guid: 5a0cbc1f1ae67ad4ebba8a461254b3fc, type: 2}
+  - instaMesh1: {instanceID: 0}
+  - instaMesh2: {instanceID: 0}
+  - instaMesh3: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
