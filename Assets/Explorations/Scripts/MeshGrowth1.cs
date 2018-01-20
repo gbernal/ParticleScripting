@@ -26,8 +26,10 @@ public class MeshGrowth1 : MonoBehaviour
         Mesh mesh = GetComponent<MeshFilter>().mesh;
         Vector3[] vertices = mesh.vertices;
         int i = 0;
+        #region        
         /*
-                while (i < vertices.Length)
+
+        while (i < vertices.Length)
                 {
                     Quaternion q = Quaternion.LookRotation(mesh.normals[i], Vector3.up);
                     Quaternion w = Quaternion.identity;
@@ -43,7 +45,9 @@ public class MeshGrowth1 : MonoBehaviour
                     targetScale = baseScale * startSize;
                     i++;
                 }
+                 
         */
+        #endregion
         while (i < vertices.Length)
         {
             bool myBool = (Random.value < 0.5f);
