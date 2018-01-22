@@ -2,33 +2,62 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class flowerInsta : MonoBehaviour {
+[RequireComponent(typeof(SkinnedMeshRenderer))]
+public class FlowerInsta : MonoBehaviour {
 
     List<Mesh> flowers;
+    public GameObject instaMesh;
     public int num_flowers = 10;
     public int max_num_flowers = 1000;
+    private GameObject instantiatedPrefab;
+    public float startSize = 3f;
+    private Vector3  baseScale;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
+    // Use this for initialization
+    void Start () {
+        SkinnedMesh mesh = GetComponent<SkinnedMesh>();
+        mesh.OnResultsReady += NatureBloom;
+    }
 	
-	// Update is called once per frame
-	void Update () {
-		if(flowers == null){
-            flowers = new List<Mesh>();
-        }
-        if (flowers.Count != num_flowers && num_flowers > 0 && num_flowers < max_num_flowers){
-            flowers.Clear();
 
-            //add new flowers
-            for(int i = 0; i < num_flowers; i++)
+    void NatureBloom(SkinnedMesh mesh) {
+
+
+
+        if (mesh.useBakeMesh)
+        {
+            var m = transform.localToWorldMatrix;
+            for (int i = 0; i < mesh.vertexCount; i++)
             {
-                Mesh mesh = Resources.Load("Assets/Rose01.prefab", typeof(Mesh)) as Mesh;
-                flowers.Add(mesh);
+                Vector3 position = mesh.bakedVertices[i];
+                Vector3 normal = mesh.bakedNormals[i];
+
+                Quaternion q = Quaternion.LookRotation(mesh.normals[i], Vector3.up);
+                Quaternion w = Quaternion.identity;
+                w.SetEulerRotation(Mathf.PI / 2, 0, 0);
+                Vector3 worldPt = transform.TransformPoint(position);
+                instantiatedPrefab = Instantiate(instaMesh, worldPt, transform.rotation * q * w);
+               // baseScale = instantiatedPrefab.transform.localScale;
+                //instantiatedPrefab.transform.localScale = baseScale * startSize;
+
+            }
+        }
+        else
+        {
+            for (int i = 0; i < mesh.vertexCount; i++)
+            {
+                Vector3 position = mesh.vertices[i];
+                Vector3 normal = mesh.normals[i];
+                Quaternion q = Quaternion.LookRotation(mesh.normals[i], Vector3.up);
+                Quaternion w = Quaternion.identity;
+                w.SetEulerRotation(Mathf.PI / 2, 0, 0);
+                Vector3 worldPt = transform.TransformPoint(position);
+                instantiatedPrefab = Instantiate(instaMesh, position, transform.rotation * q * w);
+                //baseScale = instantiatedPrefab.transform.localScale;
+                //instantiatedPrefab.transform.localScale = baseScale * startSize;
             }
         }
 
-        Debug.Log("we have " + flowers.Count + " flowers");
+
     }
 }
